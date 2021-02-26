@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.buttons button{
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://s0.rbk.ru/v6_top_pics/media/img/2/06/755913511843062.jpg");
+    height: 100vh;
+}
+
+.gaz{
+    padding: 60px 40px;
+    text-align: center;
+    background: #94ff78;
+    border-radius: 20px;
+}
+
+
+.active {
+    background: #ffe20a;
+    transition: 0.4s;
+}
+
+#input{
+    margin: 20px;
+    width: 70px;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#result{
+    margin: 10px;
+}
+
+#priceFor{
+    margin: 10px;
+}
+
